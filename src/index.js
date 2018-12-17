@@ -451,6 +451,7 @@ function initializeDownload(paras) {
         fileStats.done = true;
         fileStats.currentTotal = 1;
         progressBar.setTotal(fileStats.currentTotal);
+        fs.renameSync(outputDirectory.concat("/", partialPath.filename), outputDirectory.concat("/", repoInfo.resPath))
       }
     }).catch((error) => {
       processClientError(error, initializeDownload.bind(null, paras));
