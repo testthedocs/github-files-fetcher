@@ -33,28 +33,28 @@
   },
   "homepage": "https://github.com/Gyumeijie/github-files-fetcher",
   "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "@gyumeijie/cli-progress": "^1.0.0",
+    "@babel/polyfill": "^7.2.5",
+    "@gyumeijie/cli-progress": "^1.0.2",
     "args-parser": "^1.1.0",
     "axios": "^0.18.0",
-    "colors": "^1.3.2",
-    "is-online": "^7.0.0",
-    "shelljs": "^0.8.2"
+    "colors": "^1.3.3",
+    "is-online": "^8.1.0",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "babel-loader": "^8.0.4",
-    "copy-webpack-plugin": "^4.5.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.0",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.5.0",
+    "eslint": "^5.15.1",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "write-to-file-webpack": "^1.0.4"
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "write-to-file-webpack": "^1.0.6"
   },
   "config": {
     "commitizen": {
